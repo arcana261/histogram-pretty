@@ -1,4 +1,4 @@
-histogram = function(vector,options) {
+module.exports = function(vector,options) {
 
   options = options || {};
   options.copy = options.copy === undefined ? true : options.copy;
